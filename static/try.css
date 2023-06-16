@@ -1,0 +1,98 @@
+/* CSS for the layout */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0; /* Added to remove default margin */
+}
+.generate-button {
+  background-color: #4caf50;
+  margin-top: 1rem;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.generate-button:hover {
+  background-color: #45a049;
+}
+.header {
+  margin-top: 10px; /* Reduced margin-top */
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Change to column */
+  align-items: center; /* Center align the content horizontally */
+  width: 100%;
+  max-width: 800px;
+  margin-top: 10px; /* Reduced margin-top */
+}
+
+.form-container {
+  margin-bottom: 10px; /* Added margin-bottom for spacing */
+  padding: 20px;
+  background-color: #ffffff; /* Plain color of your choice */
+  border: 1px solid #ccc; /* Added border */
+  border-radius: 5px; /* Added border radius */
+}
+
+.card-container {
+  display: none;
+  width: 100%;
+}
+
+/* CSS for the output */
+.output-container {
+  width: 100%;
+  padding: 10px; /* Reduced padding */
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow-y: auto; /* Added scrolling action */
+}
+
+.output-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.output-textbox {
+  width: 100%;
+  height: auto; /* Make the height scalable based on the content */
+  margin: 10px 0; /* Reduced margin */
+  resize: vertical; /* Allow vertical resizing */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.download-button {
+  margin-top: 10px; /* Reduced margin-top */
+  background-color: #4caf50; /* Green color for the button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.output-word {
+  font-weight: bold; /* Added style for the output word */
+}
