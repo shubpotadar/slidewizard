@@ -1,1 +1,0 @@
- The obtained evaluation metrics were analyzed to gain insights into the model's performance. The accuracy indicated the overall effectiveness of the system, while precision and recall provided a deeper understanding of its ability to correctly identify fake news without missing significant instances.
